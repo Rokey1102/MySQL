@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<hea
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        max-width: 1640px;
+        min-width: none;
+        padding: 0 120px;
+        margin: 0 auto;
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+    }
+    .box_1{
+        width: 18%;
+        height: 500px;
+    }
+    .bg_1{
+        width: 100%;
+        height: 136px;
+        background-image: url(./图片/热歌榜.png),url(./图片/林俊杰.jpg);
+        background-repeat: no-repeat;
+        background-size: 50% 50%,100% 100%;
+        background-position: center;
+        position: relative;
+        margin-bottom:  20px 0;
+    }    
+    .box_2{
+        width: 18%;
+        height: 500px;
+        background: rgb(255, 255, 255);
+    }
+    .bg_2{
+        width: 100%;
+        height: 136px;
+        background-image: url(./图片/新歌榜.png),url(./图片/薛之谦.jpg);
+        background-repeat: no-repeat;
+        background-size: 50% 50%,100% 100%;
+        background-position: center;
+        position: relative;
+        margin-bottom:  20px 0;
+    }
+    .box_3{
+        width: 18%;
+        height: 500px;
+        background: rgb(255, 255, 255);
+    }
+    .bg_3{
+        width: 100%;
+        height: 136px;
+        background-image: url(./图片/飙升榜.png),url(./图片/薛之谦.jpg);
+        background-repeat: no-repeat;
+        background-size: 50% 50%,100% 100%;
+        background-position: center;
+        position: relative;
+        margin-bottom:  20px 0;
+    }
+    .box_4{
+        width: 18%;
+        height: 500px;
+        background: rgb(254, 254, 254);
+    }
+    .bg_4{
+        width: 100%;
+        height: 136px;
+        background-image: url(./图片/欧美榜.png),url(./图片/哦欧美.jpg);
+        background-repeat: no-repeat;
+        background-size: 50% 50%,100% 100%;
+        background-position: center;
+        position: relative;
+        margin-bottom:  20px 0;
+    }
+    .box_5{
+        width: 18%;
+        height: 500px;
+        background: rgb(255, 255, 255);
+    }
+    .bg_5{
+        width: 100%;
+        height: 136px;
+        background-image: url(./图片/日韩榜.png),url(./图片/小日本.jpg);
+        background-repeat: no-repeat;
+        background-size: 50% 50%,100% 100%;
+        background-position: center;
+        position: relative;
+        margin-bottom:  20px 0;
+    }
+    .img{
+        display: none;
+        position: absolute;
+        right: 5px;
+        bottom: 5px; 
+    }
+    .bg_1:hover .img{
+        display: block;
+    }
+    .bg_2:hover .img{
+        display: block;
+    }
+    .bg_3:hover .img{
+        display: block;
+    }
+    .bg_4:hover .img{
+        display: block;
+    }
+    .bg_5:hover .img{
+        display: block;
+    }
+    .phb_1>div{
+        width: 80%;
+        height: 50px;
+        padding: 20px 0 20px 20%;
+        background-repeat: no-repeat;
+        background-size: 33px;
+        background-position:10px 50%;
+    }
+    .phb_1>div:nth-child(1){
+        background-image: url(./图片/排行榜1.png);
+    }
+    .phb_1>div:nth-child(2){
+        background-image: url(./图片/排行榜2.png);
+    }
+    .phb_1>div:nth-child(3){
+        background-image: url(./图片/排行榜3.png);
+    }
+    .phb_1>div:nth-child(4){
+        background-size: 20px;
+        background-image: url(./图片/4.png);
+        background-position: 19px 50%;
+
+    }
+    .phb_1>div:nth-child(5){
+        background-size: 20px;
+        background-image: url(./图片/5.png);
+        background-position: 19px 50%;
+    }
+    .phb_1>div>div{
+        padding-left: 10px;
+    }
+    .phb_1>div>div:last-child{
+        color: #999;
+    }
+    .phb_1>div>div:last-child:hover{
+        color: #333;
+
+    }
+    .phb_1>div>div:first-child:hover{
+        font-weight:900;
+    }
+</style>
+<body>  
+        <div class="box">
+            <div class="box_1">
+                <div class="bg_1">
+                    <img class="img" src="./图片/播放.png" alt="">
+                </div>
+                <div class="phb_1">
+                    <div>
+                        <div>晴天</div>
+                        <div>周杰伦</div>
+                    </div>
+                    <div>
+                        <div>Letting Go</div>
+                        <div>蔡健雅</div>
+                    </div>
+                    <div>
+                        <div>江南</div>
+                        <div>林俊杰</div>
+                    </div>
+                    <div>
+                        <div>美人鱼</div>
+                        <div>林俊杰</div>
+                    </div>
+                    <div>
+                        <div>最远的是你是我最近的爱</div>
+                        <div>小阿枫</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_2">
+                <div class="bg_2">
+                    <img class="img" src="./图片/播放.png" alt="">
+                </div>
+                <div class="phb_1">
+                    <div>
+                        <div>面纱</div>
+                        <div>张艺兴</div>
+                    </div>
+                    <div>
+                        <div>去温暖的地方</div>
+                        <div>摩登兄弟刘宇宁</div>
+                    </div>
+                    <div>
+                        <div>可</div>
+                        <div>薛之谦&张靓颖</div>
+                    </div>
+                    <div>
+                        <div>无数</div>
+                        <div>薛之谦</div>
+                    </div>
+                    <div>
+                        <div>男二号</div>
+                        <div>薛之谦</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_3">
+                <div class="bg_3">
+                    <img class="img" src="./图片/播放.png" alt="">
+                </div>
+                <div class="phb_1">
+                    <div>
+                        <div>人间总有一两风</div>
+                        <div>李蕊儿</div>
+                    </div>
+                    <div>
+                        <div>画风行万里</div>
+                        <div>大欢</div>
+                    </div>
+                    <div>
+                        <div>骗子</div>
+                        <div>文夫</div>
+                    </div>
+                    <div>
+                        <div>爱都爱了</div>
+                        <div>小洲</div>
+                    </div>
+                    <div>
+                        <div>忘情忘爱</div>
+                        <div>余超颖</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_4">
+                <div class="bg_4">
+                    <img class="img" src="./图片/播放.png" alt="">
+                </div>
+                <div class="phb_1">
+                    <div>
+                        <div>Bones</div>
+                        <div>lmagine Dragons</div>
+                    </div>
+                    <div>
+                        <div>Bet ON Me</div>
+                        <div>Walk Off the Ear...</div>
+                    </div>
+                    <div>
+                        <div>ENEMY(宿敌)</div>
+                        <div>Lmagine Dragons</div>
+                    </div>
+                    <div>
+                        <div>Something j...</div>
+                        <div>AnDyWuMUSIC...</div>
+                    </div>
+                    <div>
+                        <div>Children of t...</div>
+                        <div>MOno inc&Mar...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_5">
+                <div class="bg_5">
+                    <img class="img" src="./图片/播放.png" alt="">
+                </div>
+                <div class="phb_1">
+                    <div>
+                        <div>如果你也想去</div>
+                        <div>允儿</div>
+                    </div>
+                    <div>
+                        <div>NO ONE</div>
+                        <div>李夏怡&B.I</div>
+                    </div>
+                    <div>
+                        <div>Feedback</div>
+                        <div>Boa&Nuckdal</div>
+                    </div>
+                    <div>
+                        <div>너에게 못했던 내 마지막 말은</div>
+                        <div>DAVICHI (다비치)</div>
+                    </div>
+                    <div>
+                        <div>고고베베</div>
+                        <div>MAMAMOO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
